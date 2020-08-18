@@ -1,6 +1,6 @@
 <h1>Boyga Life!</h1>
 
-<h2>Burgers on the list!!</h2>
+<h2>Burgers on the menu!!</h2>
 
 <ul>
   {{#each burgers}}
@@ -10,7 +10,7 @@
   {{/each}}
 </ul>
 
-<h2>Burgers that are Devour!</h2>
+<h2>Burgers that have been eaten!</h2>
 
 <ul>
   {{#each burgers}}
@@ -29,10 +29,9 @@
   </div>
 
   <div class="form-group">
-    <label for="devoured">Devoured?</label><br>
-    <input type="radio" name="devoured" value="1" checked> Devoured!<br>
-    {{!-- <input type="radio" name="devoured" value="0"> Awake --}}
+    <label for="devoured">Add to the list??</label><br>
+    <input type="radio" name="devoured" value="1" checked> To the list!<br>
   </div>
 
-  <button type="submit">Add Hamburgesa</button>
+  <button type="submit">Add Hamburguesa</button>
 </form>
