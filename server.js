@@ -13,8 +13,8 @@ app.use(express.urlencoded({
 }));
 app.use(express.json());
 
-var distDir = __dirname + "/dist/";
-app.use(express.static(distDir));
+// var distDir = __dirname + "/dist/";
+// app.use(express.static(distDir));
 
 // Set Handlebars.
 var exphbs = require("express-handlebars");
